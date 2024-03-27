@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://7x2jgnnsj80x"]
+
+[ext_resource type="Texture2D" uid="uid://dg278y2ivowjg" path="res://Models/LaserMaterial.png" id="1_hptaq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jp817"]
+albedo_texture = ExtResource("1_hptaq")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_us82k"]
+material = SubResource("StandardMaterial3D_jp817")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 2)
+cast_shadow = 0
+mesh = SubResource("PlaneMesh_us82k")

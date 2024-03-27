@@ -1,0 +1,8 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711513124
+icon.svg::CompressedTexture2D::8325746745800453847::1711363325::1711513125::1::::<><>::
+PosMarker.tscn::PackedScene::2295179451547915317::1711511187::0::1::::<><>::uid://dg278y2ivowjg::::res://Models/LaserMaterial.png
+World.gd::GDScript::-1::1711511098::0::1::::<>Node3D<>::
+World.tscn::PackedScene::632162878886714148::1711511187::0::1::::<><>::res://World.gd
+::res://Models/::1711513086
+LaserMaterial.png::CompressedTexture2D::7638136489896744976::1711510331::1711513125::1::::<><>::
